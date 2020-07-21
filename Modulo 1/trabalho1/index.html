@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./css/styleex1.css">
+
+  <title>Exercício 1</title>
+</head>
+<h1> Exercício 1 </h1>
+
+<div class="color"></div>
+
+<body>
+  <div class="container">
+    <div class="conjunto">
+      <div class="inicial">
+
+        <span>(R) Vermelho </span>
+        <span>(G) Verde </span>
+        <span>(B) Azul </span>
+      </div>
+
+      <div class="inputrange">
+        <input type="range" id="range1" name="rangeInput" min="0" max="255" onchange="updateTextInput1(this.value);">
+        <input type="range" id="range2" name="rangeInput" min="0" max="255" onchange="updateTextInput2(this.value);">
+        <input type="range" id="range3" name="rangeInput" min="0" max="255" onchange="updateTextInput3(this.value);">
+
+      </div>
+
+      <div class="final">
+        <input type="text" id="inputfim1" value="" disabled>
+        <input type="text" id="inputfim2" value="" disabled>
+        <input type="text" id="inputfim3" value="" disabled>
+      </div>
+    </div>
+
+  </div>
+
+
+  <script src="./js/script.js"></script>
+
+</body>
+
+</html>
