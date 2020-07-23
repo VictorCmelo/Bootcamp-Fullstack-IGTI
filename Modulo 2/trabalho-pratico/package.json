@@ -1,0 +1,8 @@
+{
+  "name": "trabalho-pratico",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Victor C Melo",
+  "license": "MIT",
+  "type": "module"
+}
